@@ -3,5 +3,120 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    outline: none;
 }
 
+body {
+    background-color: #8a51fc;
+}
+
+.logo {
+    width: 300px;
+    margin: 12px auto 16px auto;
+    display: block;
+}
+
+main {
+    margin: 0px auto 40px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    width: 375px;
+    height: 712px;
+    padding: 45px 24px 0px 24px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select {
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    width: 327px;
+    height: 48px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 10px;
+    color: #555555;
+
+}
+
+button {
+    background: #014b0dde;
+    border-radius: 5px;
+    width: 327px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+    color: #FFFFFF;
+
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    width: 327px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.de-valor,
+.para-valor {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+input::placeholder {
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
