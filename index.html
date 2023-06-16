@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -29,9 +28,11 @@
 
         <label> Converter <b>para </b>
 
-            <select class="seletor">
+            <select class="currencySelect">
                 <option value="dolar">US $ Dólar Americano</option>
                 <option value="euro">€ $ Euro</option>
+                <option value="libra">GBP $ Libra esterlina</option>
+                <option value="bitcoin">BTC $ Bitcoin</option>p
             </select>
         </label>
 
@@ -39,7 +40,7 @@
             <input class="input" type="number" placeholder="R$10.000">
         </label>
 
-        <button class="convert-button" onclick="botaoApertado()">Converter</button>
+        <button class="convert-button" onclick="convertValues()">Converter</button>
 
         <section>
             <div class="de-valor">
@@ -51,7 +52,7 @@
             <img class="arrow" src="./assets/Vector.png" alt="arrow">
 
             <div class="para-valor">
-                <img src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
+                <img class="currency-img" src="./assets/dolar.png" alt="logo-moeda-convertida">
                 <p class="currency-converted">Dólar Americano</p>
                 <p class="currency-value">US$ 0.00</p>
 
@@ -60,5 +61,6 @@
     </main>
 
 </body>
+<script src="./script.js"></script>
 
 </html>
