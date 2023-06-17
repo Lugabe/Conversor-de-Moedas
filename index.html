@@ -15,13 +15,18 @@
 
 <body>
 
-    <img class="logo" src="./assets/logo.gif" alt="recebendo uma nota de dinheiro">
+    <img class="logo" src="./assets/gif-porco.gif" alt="recebendo uma nota de dinheiro">
 
     <main>
+        <h4><span> Conversor</span> de  <span class="spanMoedas">Moedas</span></h4>
         <label> Converter <b>de</b>
 
-            <select>
-                <option>R$ Real Brasileiro</option>
+            <select class="currencySelectToConvert">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€$ Euro</option>
+                <option value="libra">GBP$ Libra esterlina</option>
+                <option value="bitcoin">BTC$ Bitcoin</option>
             </select>
 
         </label>
@@ -29,10 +34,11 @@
         <label> Converter <b>para </b>
 
             <select class="currencySelect">
-                <option value="dolar">US $ Dólar Americano</option>
-                <option value="euro">€ $ Euro</option>
-                <option value="libra">GBP $ Libra esterlina</option>
-                <option value="bitcoin">BTC $ Bitcoin</option>p
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€$ Euro</option>
+                <option value="libra">GBP$ Libra esterlina</option>
+                <option value="bitcoin">BTC$ Bitcoin</option>
             </select>
         </label>
 
@@ -44,8 +50,8 @@
 
         <section>
             <div class="de-valor">
-                <img src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
-                <p class="currency">Real</p>
+                <img class="currencyImgToConvert" src="./assets/brasil.png" alt="logo-moeda-a-converter">
+                <p class="currency">Real Brasileiro</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
