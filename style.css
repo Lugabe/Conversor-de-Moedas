@@ -8,17 +8,24 @@
 
 body {
     background-color: #5b0847;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .logo {
     width: 300px;
-    margin: 12px auto 16px auto;
-    display: block;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
+
 main {
-    margin: 0px auto 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #F4F4F4;
     border-radius: 20px;
     width: 375px;
@@ -99,14 +106,16 @@ section {
 }
 
 
-.currency-value, .currency-value-to-convert {
+.currency-value,
+.currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
 }
 
-.currency-img, .arrow{
+.currency-img,
+.arrow {
     filter: drop-shadow(0px 8px 3px rgba(0, 0, 0, 0.25));
 }
 
@@ -126,7 +135,7 @@ button:active {
     opacity: 0.5;
 }
 
-h4{
+h4 {
     text-align: center;
     margin-bottom: 10px;
     color: rgb(247, 247, 247);
@@ -135,10 +144,10 @@ h4{
     border-radius: 15px;
 }
 
-span{
+span {
     color: gold;
 }
 
-.spanMoedas{
+.spanMoedas {
     color: rgb(8, 214, 8);
 }
